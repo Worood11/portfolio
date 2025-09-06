@@ -3,24 +3,21 @@
     text-align: center;
     margin: 0 auto;
     box-sizing: border-box;
+    color: white;
 }
 
 body {
     margin: 0;
-
     padding: 0;
     min-height: 100vh;
     background: #EEAECA;
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
-
 }
 
 .navbar {
     display: flex;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2px);
-
-
 }
 
 .logo {
@@ -28,7 +25,6 @@ body {
     font-family: 'Pacifico', cursive;
     color: white;
     margin: 0;
-
 }
 
 .logo h1 {
@@ -39,13 +35,10 @@ body {
     margin-right: 0;
 }
 
-
-
 .nav-links ul {
     display: flex;
     list-style: none;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 
@@ -53,7 +46,6 @@ body {
 .nav-links ul li {
     padding: 20px 20px;
     margin: 0;
-
 }
 
 .nav-links ul li:hover {
@@ -67,74 +59,60 @@ body {
     color: white;
 }
 
-
+main {
+    font-family: 'Open Sans', sans-serif;
+}
 
 section {
-    padding: 10px;
+    padding: 40px;
     min-height: 100vh;
 }
 
 .home-content {
     display: flex;
     margin-top: 10%;
-
-
 }
 
 .home-content p {
     padding: 20px;
     text-align: left;
     font-size: 40px;
-    color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
 
 #name {
-
     font-family: 'Pacifico', cursive;
     -webkit-text-fill-color: #EEAECA;
     -webkit-text-stroke: 0.5px white;
     font-size: 50px;
-
-
-
 }
 
-img {
+#person img {
     display: block;
     float: right;
     margin-top: 60px;
     overflow: hidden;
     height: 150px;
     width: 150px;
-    /* border: 1px solid white;
-    border-radius: 50px; */
-
-
 }
 
 h2 {
-
+    margin-top: 40px;
+    padding: 40px;
     font-size: 35px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    color: white;
-
 }
 
 .vl {
     display: flex;
     flex-direction: column;
     border-left: 6px solid white;
-    height: 300px;
+    height: auto;
     margin: 0;
     padding: 20px;
     margin-left: 20%;
     margin-top: 5rem;
-
-
-
 }
 
 
@@ -142,54 +120,80 @@ h2 {
     margin: 0;
     padding: 0;
     display: flex;
-
-
-
 }
 
 #about-p {
-
-    color: white;
     font-size: 25px;
-    font-family: 'Open Sans', sans-serif;
-
-
+    text-align: left;
 }
 
 
 #education-about {
     display: inline;
+    margin: 0;
+    padding-top: 50px;
 }
 
 #education-about h4 {
     display: flex;
     margin: 0;
     margin-top: 20px;
-    color: white;
     font-size: 25px;
-    font-family: 'Open Sans', sans-serif;
-
-
 }
 
 
 #education-about p {
     display: flex;
     margin: 0;
-
     padding-left: 5px;
     color: gainsboro;
     font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
 }
 
+.pro-container {
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    gap: 20px;
+}
 
+.detail-container {
+    height: auto;
+    border: 1px solid white;
+    border-radius: 3rem;
+    padding: 20px;
+}
+
+.detail-container img {
+    height: 300px;
+    width: 300px;
+    border-radius: 1rem;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+button {
+    margin: 10px;
+    background-color: transparent;
+    color: grey;
+    border: 2px solid #EEAECA;
+    border-radius: 1rem;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
 
 
 footer a {
     padding: 20px;
     color: white;
-
 }
 
 footer i {
@@ -198,6 +202,4 @@ footer i {
 
 footer i:hover {
     color: #f3bfd6;
-
-
 }

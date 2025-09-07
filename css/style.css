@@ -17,7 +17,6 @@ body {
 .navbar {
     display: flex;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2px);
 }
 
 .logo {
@@ -52,6 +51,7 @@ body {
     text-decoration: underline;
     text-decoration-color: #EEAECA;
     text-decoration-thickness: 2px;
+
 }
 
 .nav-links ul li a {
